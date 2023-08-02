@@ -3,8 +3,9 @@ import data from "data/data.json";
 import "./Main.css";
 const Main = () => {
   return (
-    <div>
-      <header>
+    <div className="main_container">
+      MAIN
+      {/* <header>
         <h2>정글 시네마 영화 목록</h2>
         <nav>
           <ul>
@@ -36,7 +37,7 @@ const Main = () => {
             </li>
           ))}
         </ul>
-      </article>
+      </article> */}
     </div>
   );
 };

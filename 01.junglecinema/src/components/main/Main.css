@@ -1,0 +1,10 @@
+.main_container {
+  width: 1060px;
+  height: 120px;
+  margin: 91px auto 0;
+
+  border: 2px solid var(--gray-4, #bdbdbd);
+  border-radius: 15px;
+
+  background: var(--gray-6, #f2f2f2);
+}
