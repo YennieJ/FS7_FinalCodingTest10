@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "위니브 월드 : 새로운 시대 로드맵으로 Python 완전 정복!",
-    "poster": "https://img.ridicdn.net/cover/2773000042/xxlarge#1",
+    "poster": "./data/MoviePoster/poster-img1.png",
     "genre": "판타지",
     "star": "9.05",
     "release": "2021.03.27",
@@ -12,7 +12,7 @@
   {
     "id": 2,
     "title": "눈떠보니 코딩테스트 전날 With JAVA",
-    "poster": "https://img.ridicdn.net/cover/2773000043/xxlarge#1",
+    "poster": "./data/MoviePoster/poster-img2.png",
     "genre": "스릴러",
     "star": "8.25",
     "release": "2021.04.01",
@@ -22,7 +22,7 @@
   {
     "id": 3,
     "title": "파이썬 부트캠프",
-    "poster": "",
+    "poster": "./data/MoviePoster/poster-img3.png",
     "genre": "드라마",
     "star": "8.77",
     "release": "2021.04.12",
@@ -32,7 +32,7 @@
   {
     "id": 4,
     "title": "파이큐티의 사랑",
-    "poster": "https://img.ridicdn.net/cover/2773000043/xxlarge#1",
+    "poster": "./data/MoviePoster/poster-img4.png",
     "genre": "로맨스",
     "star": "8.81",
     "release": "2021.04.08",
@@ -42,7 +42,7 @@
   {
     "id": 5,
     "title": "NGINX의 춤",
-    "poster": "https://img.ridicdn.net/cover/2773000043/xxlarge#1",
+    "poster": "./data/MoviePoster/poster-img5.png",
     "genre": "드라마",
     "star": "9.88",
     "release": "2021.04.15",
@@ -52,7 +52,7 @@
   {
     "id": 6,
     "title": "어쩌다 밋업",
-    "poster": "https://img.ridicdn.net/cover/2773000043/xxlarge#1",
+    "poster": "./data/MoviePoster/poster-img6.png",
     "genre": "드라마",
     "star": "9.25",
     "release": "2021.04.17",
@@ -62,7 +62,7 @@
   {
     "id": 7,
     "title": "파이게임 어드벤처",
-    "poster": "https://img.ridicdn.net/cover/2773000043/xxlarge#1",
+    "poster": "./data/MoviePoster/poster-img7.png",
     "genre": "판타지액션",
     "star": "8.56",
     "release": "2021.04.05",
@@ -72,7 +72,7 @@
   {
     "id": 8,
     "title": "MBTI는 내 운명",
-    "poster": "https://img.ridicdn.net/cover/2773000043/xxlarge#1",
+    "poster": "./data/MoviePoster/poster-img8.png",
     "genre": "로맨스",
     "star": "9.02",
     "release": "2021.04.12",

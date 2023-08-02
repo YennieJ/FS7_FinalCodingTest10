@@ -1,10 +1,10 @@
 import { useState } from "react";
 import "./App.css";
-import data from "./data.json";
+import data from "./data/data.json";
 
 function App() {
   const [list, setList] = useState(data);
-
+  console.log(list);
   return (
     <div className="App">
       <h1>Hello word</h1>
@@ -12,6 +12,7 @@ function App() {
         <div key={item.id}>
           <h1>{item.title}</h1>
           <img src={item.poster} alt="" />
+          <img src={require(`${item.poster}`)} alt="" />
           <span>{item.genre}</span>
           <span>{item.star}</span>
           <span>{item.release}</span>
