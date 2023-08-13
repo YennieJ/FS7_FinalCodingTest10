@@ -1,12 +1,15 @@
 import React from "react";
+
 import "./Footer.css";
 
 const Footer = () => {
   return (
     <footer className="footer-container">
       <div className="inner-container">
+        {/* 회사 이름 , 소셜미디어 링크 */}
         <header className="footer-header">
           <h2 className="title">Jungle Cinema</h2>
+          {/* 소셜미디어 링크 */}
           <ul className="social-group" aria-labelledby="소셜 링크 그룹">
             <li>
               <a href="#!" aria-label="트위터" role="button">
@@ -28,7 +31,7 @@ const Footer = () => {
             </li>
           </ul>
         </header>
-
+        {/* 회사 정보 */}
         <article className="company">
           <h6 className="a11y_hidden">정글 시네마 회사 정보</h6>
           <div>

@@ -38,6 +38,7 @@ const Main = () => {
     <main className="main_container">
       <header className="main_header">
         <h1 className="main_title">정글 시네마 영화 목록</h1>
+        {/* 네비게이션 */}
         <nav>
           <ul className="main_nav">
             {movieTyepButton.map((type) => (
@@ -52,9 +53,11 @@ const Main = () => {
           </ul>
         </nav>
       </header>
+
+      {/* 정글 시네마 영화 목록 컨텐츠 */}
       <article className="main_content">
+        <h2 className="a11y_hidden">{buttonActive}</h2>
         <ul className="main_grid">
-          <h2 className="a11y_hidden">{buttonActive}</h2>
           {movieData.map((item) => (
             <li key={item.id} className="movie_item">
               <img
@@ -71,7 +74,7 @@ const Main = () => {
                 <div className="movie_release">{item.release}</div>
                 <div className="movie_actor">{item.actor}</div>
               </div>
-
+              {/* 외부 링크 */}
               <ul className="link_group">
                 <li>
                   <a
