@@ -6,6 +6,7 @@ import Footer from "../components/footer/Footer";
 const Home = () => {
   return (
     <>
+      <h1 className="a11y_hidden">정글 시네마</h1>
       <Main />
       <Footer />
     </>

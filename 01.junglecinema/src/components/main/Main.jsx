@@ -7,6 +7,7 @@ import "./Main.css";
 const Main = () => {
   // jsonData
   const [movieData, setMovieData] = useState(movieJson);
+
   // nav button
   const movieTyepButton = ["현재상영영화", "개봉예정영화", "박스오피스"];
 
@@ -34,19 +35,18 @@ const Main = () => {
   };
 
   return (
-    <div className="main_container">
+    <main className="main_container">
       <header className="main_header">
         <h1 className="main_title">정글 시네마 영화 목록</h1>
-
         <nav>
           <ul className="main_nav">
-            {movieTyepButton.map((item) => (
+            {movieTyepButton.map((type) => (
               <button
                 onClick={activeMovie}
-                key={item}
-                className={item === buttonActive ? " button_active" : undefined}
+                key={type}
+                className={type === buttonActive ? " button_active" : undefined}
               >
-                {item}
+                {type}
               </button>
             ))}
           </ul>
@@ -54,7 +54,7 @@ const Main = () => {
       </header>
       <article className="main_content">
         <ul className="main_grid">
-          <h2 className="a11y-hidden">{buttonActive}</h2>
+          <h2 className="a11y_hidden">{buttonActive}</h2>
           {movieData.map((item) => (
             <li key={item.id} className="movie_item">
               <img
@@ -91,7 +91,7 @@ const Main = () => {
           ))}
         </ul>
       </article>
-    </div>
+    </main>
   );
 };
 

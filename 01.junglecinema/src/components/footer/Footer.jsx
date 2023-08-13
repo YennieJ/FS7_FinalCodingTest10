@@ -30,7 +30,7 @@ const Footer = () => {
         </header>
 
         <article className="company">
-          <h6 className="a11y-hidden">정글 시네마 회사 정보</h6>
+          <h6 className="a11y_hidden">정글 시네마 회사 정보</h6>
           <div>
             <b className="line">(주) 정글 시네마</b>
             <span className="line">
