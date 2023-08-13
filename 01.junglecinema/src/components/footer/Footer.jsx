@@ -5,8 +5,8 @@ const Footer = () => {
   return (
     <footer className="footer-container">
       <div className="inner-container">
-        <header className="header">
-          <h1 className="title">Jungle Cinema</h1>
+        <header className="footer-header">
+          <h2 className="title">Jungle Cinema</h2>
           <ul className="social-group" aria-labelledby="소셜 링크 그룹">
             <li>
               <a href="#!" aria-label="트위터" role="button">
@@ -32,7 +32,7 @@ const Footer = () => {
         <article className="company">
           <h6 className="a11y-hidden">정글 시네마 회사 정보</h6>
           <div>
-            <b className="  line">(주) 정글 시네마</b>
+            <b className="line">(주) 정글 시네마</b>
             <span className="line">
               <b>대표</b> 라이언
             </span>
