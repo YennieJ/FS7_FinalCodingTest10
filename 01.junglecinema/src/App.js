@@ -1,4 +1,5 @@
-import "./Reset.css";
+import "./styles/Reset.css";
+import "./styles/font.css";
 
 import Home from "./page/Home";
 

@@ -22,6 +22,7 @@
   margin-bottom: 37px;
 
   font-size: 24px;
+  font-family: "Roboto";
   font-weight: 700;
 }
 /* 네비게이션 */
@@ -50,6 +51,7 @@
 }
 .main_nav button {
   padding: 10px 5px;
+  font-family: "Roboto";
 }
 /* 활성화 되고있는 버튼 */
 .button_active {
@@ -82,6 +84,8 @@
 
   border: 2px solid var(--gray-4, #bdbdbd);
   border-radius: 15px;
+
+  font-family: "Noto-400";
 }
 /* 영화 포스터 */
 .movie_poster {
@@ -99,7 +103,7 @@
 .movie_name {
   margin-bottom: 12px;
 
-  font-weight: 900;
+  font-family: "Noto-900";
 
   overflow: hidden;
   text-overflow: ellipsis;
@@ -155,7 +159,7 @@
 
   padding-right: 18px;
 
-  background: url(./MovieImgs/star.svg) no-repeat 28px -0.1px / 12px;
+  background: url(./MovieImgs/star.svg) no-repeat 28px center / 12px;
 }
 .movie_release::before {
   content: "개봉";
@@ -180,6 +184,7 @@
   border-radius: 0 0 15px 15px;
 
   font-size: 14px;
+  font-family: "Noto-500";
 
   background: var(--gray-6, #f2f2f2);
 }
@@ -210,5 +215,5 @@
 
   background: url(./MovieImgs/play.svg) no-repeat center;
 
-  vertical-align: bottom;
+  vertical-align: top;
 }

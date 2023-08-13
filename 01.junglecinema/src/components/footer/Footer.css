@@ -21,8 +21,8 @@
 }
 .title {
   font-size: 22px;
+  font-family: "Roboto";
   font-weight: 700;
-  /* font-family: Roboto; */
 }
 .social-group {
   display: flex;
@@ -36,15 +36,18 @@
   align-items: center;
   gap: 40px;
   color: var(--gray-2, #4f4f4f);
-  /* font-family: Noto Sans KR; */
   font-size: 14px;
+  font-family: "Noto-400";
 }
 b {
-  font-weight: 700;
+  font-family: "Noto-700";
 }
 .line::after {
   content: "|";
+
   margin: 0 5px;
+
+  font-family: "Noto-400";
   font-weight: 400;
   line-height: 20px;
 }

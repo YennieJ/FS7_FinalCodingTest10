@@ -37,6 +37,7 @@ const Main = () => {
     <div className="main_container">
       <header className="main_header">
         <h1 className="main_title">정글 시네마 영화 목록</h1>
+
         <nav>
           <ul className="main_nav">
             {movieTyepButton.map((item) => (
