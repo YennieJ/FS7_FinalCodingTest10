@@ -2,7 +2,7 @@
 .main_container {
   max-width: 1060px;
   padding: 0 30px 30px;
-  margin: 91px auto 0;
+  margin: 91px auto 135px;
 
   border: 2px solid var(--gray-4, #bdbdbd);
   border-radius: 15px;
@@ -172,6 +172,7 @@
 
   display: flex;
   justify-content: space-around;
+  align-items: center;
 
   width: 100%;
 
@@ -184,12 +185,13 @@
 }
 
 .link_group li {
+  width: 100%;
+  text-align: center;
+}
+.link_group a {
   display: block;
 
-  width: 100%;
-  padding: 12px 0;
-
-  text-align: center;
+  padding: 12px 10px;
 }
 
 .trailer-box {
