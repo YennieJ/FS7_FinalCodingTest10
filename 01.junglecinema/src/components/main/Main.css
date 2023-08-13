@@ -161,7 +161,7 @@
 
   padding-right: 18px;
 
-  background: url(./MovieImgs/star.svg) no-repeat 28px center / 12px;
+  background: url(./MovieImgs/star.svg) no-repeat 28px 4px / 12px;
 }
 .movie_release::before {
   content: "개봉";
