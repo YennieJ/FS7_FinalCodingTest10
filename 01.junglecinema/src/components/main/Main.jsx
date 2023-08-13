@@ -54,7 +54,9 @@ const Main = () => {
                 src={require(`${item.poster}`)}
                 alt={`${item.title} 포스터`}
               />
-              <h2 className="movie_name">{item.title}</h2>
+              <div className="temp">
+                <h3 className="movie_name">{item.title}</h3>
+              </div>
               <div className="movie_detail">
                 <div className="movie_genre">{item.genre}</div>
                 <div className="movie_star">{item.star}</div>
