@@ -1,50 +1,17 @@
-/* Reset CSS */
-h1 {
-  margin: unset;
-  font: inherit;
-}
-ul {
-  margin: unset;
-  padding: unset;
-  list-style: none;
-}
-a {
-  text-decoration: none;
-  color: inherit;
-}
-img {
-  vertical-align: top;
-}
-address {
-  display: inline;
-  font-style: unset;
-}
-
-.a11y-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  clip-path: polygon(0 0, 0 0, 0 0);
-}
-
-/* CSS */
+/* footer */
 .footer-container {
-  position: absolute;
-  bottom: 0;
-
   width: 100%;
   padding: 53px 0 38px;
 
   background: var(--gray-6, #f2f2f2);
 }
-
 .inner-container {
   width: 70%;
   margin: auto;
 }
-.header {
+
+/* title, social */
+.footer-header {
   display: flex;
   justify-content: space-between;
 
@@ -62,6 +29,7 @@ address {
   gap: 22px;
 }
 
+/* 회사정보 */
 .company {
   display: flex;
   justify-content: space-between;
@@ -70,6 +38,9 @@ address {
   color: var(--gray-2, #4f4f4f);
   /* font-family: Noto Sans KR; */
   font-size: 14px;
+}
+b {
+  font-weight: 700;
 }
 .line::after {
   content: "|";
