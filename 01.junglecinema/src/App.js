@@ -1,14 +1,9 @@
-import "./App.css";
-import data from "./data/data.json";
+import "./Reset.css";
 
 import Home from "./page/Home";
 
 function App() {
-  return (
-    <>
-      <Home />
-    </>
-  );
+  return <Home />;
 }
 
 export default App;
