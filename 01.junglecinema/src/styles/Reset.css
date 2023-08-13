@@ -138,7 +138,7 @@ button {
   background-color: inherit;
 }
 
-.a11y_hidden {
+.a11y-hidden {
   overflow: hidden;
   position: absolute;
   clip: rect(0 0 0 0); /* IE 6,7 */

@@ -56,7 +56,7 @@ const Main = () => {
 
       {/* 정글 시네마 영화 목록 컨텐츠 */}
       <article className="main_content">
-        <h2 className="a11y_hidden">{buttonActive}</h2>
+        <h2 className="a11y-hidden">{buttonActive}</h2>
         <ul className="main_grid">
           {movieData.map((item) => (
             <li key={item.id} className="movie_item">
