@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import movieJson from "data/data.json";
 import movieReverseJson from "data/dataReverse.json";
 
@@ -26,6 +27,12 @@ const Main = () => {
     }
   };
 
+  // trailer , 예매하기 준비중
+  const readyTo = (e) => {
+    e.preventDefault();
+    alert("준비중");
+  };
+
   return (
     <div className="main_container">
       <header className="main_header">
@@ -36,7 +43,7 @@ const Main = () => {
               <button
                 onClick={activeMovie}
                 key={item}
-                className={item === buttonActive ? " button_active" : ""}
+                className={item === buttonActive ? " button_active" : undefined}
               >
                 {item}
               </button>
@@ -54,9 +61,9 @@ const Main = () => {
                 src={require(`${item.poster}`)}
                 alt={`${item.title} 포스터`}
               />
-              <div className="temp">
-                <h3 className="movie_name">{item.title}</h3>
-              </div>
+              {/* <div className="over_text_cover"> */}
+              <h3 className="movie_name">{item.title}</h3>
+              {/* </div> */}
               <div className="movie_detail">
                 <div className="movie_genre">{item.genre}</div>
                 <div className="movie_star">{item.star}</div>
@@ -66,10 +73,15 @@ const Main = () => {
 
               <ul className="link_group">
                 <li>
-                  <a href={item.url}>예매하기</a>
+                  <a
+                    href={item.url}
+                    onClick={item.url === "" ? readyTo : undefined}
+                  >
+                    예매하기
+                  </a>
                 </li>
                 <li className="trailer-box">
-                  <a href="#!" className="trailer">
+                  <a href="#!" className="trailer" onClick={readyTo}>
                     예고편
                   </a>
                 </li>
