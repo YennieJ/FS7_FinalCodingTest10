@@ -4,10 +4,10 @@
   padding: 0 30px 30px;
   margin: 91px auto 135px;
 
-  border: 2px solid var(--gray-4, #bdbdbd);
+  border: 2px solid var(--gray-4);
   border-radius: 15px;
 
-  background: var(--gray-6, #f2f2f2);
+  background: var(--gray-6);
 }
 
 /* 제목과 네비게이션*/
@@ -47,7 +47,7 @@
   width: 100%;
   height: 2px;
 
-  background-color: #bdbdbd;
+  background-color: var(--gray-4);
 }
 .main_nav button {
   padding: 10px 5px;
@@ -62,7 +62,7 @@
 .main_content {
   padding: 26px 27px 30px;
 
-  border: 2px solid var(--gray-4, #bdbdbd);
+  border: 2px solid var(--gray-4);
   border-radius: 15px;
 
   background-color: #fff;
@@ -82,7 +82,7 @@
 
   padding: 19px 20px 60px;
 
-  border: 2px solid var(--gray-4, #bdbdbd);
+  border: 2px solid var(--gray-4);
   border-radius: 15px;
 
   font-family: "Noto-400";
@@ -91,7 +91,7 @@
 .movie_poster {
   margin-bottom: 11px;
 
-  border: 1px solid var(--gray-4, #bdbdbd);
+  border: 1px solid var(--gray-4);
   border-radius: 10px;
 
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -148,7 +148,7 @@
 .movie_detail div::before {
   margin-right: 5px;
 
-  color: var(--gray-3, #828282);
+  color: var(--gray-3);
 }
 .movie_genre::before {
   content: "개요";
@@ -180,13 +180,13 @@
 
   width: 100%;
 
-  border-top: 1px solid #bdbdbd;
+  border-top: 1px solid var(--gray-4);
   border-radius: 0 0 15px 15px;
 
   font-size: 14px;
   font-family: "Noto-500";
 
-  background: var(--gray-6, #f2f2f2);
+  background: var(--gray-6);
 }
 
 .link_group li {
@@ -200,7 +200,7 @@
 }
 
 .trailer-box {
-  border-left: 1px solid #bdbdbd;
+  border-left: 1px solid var(--gray-4);
 }
 /* 플레이 이미지 */
 .trailer::before {

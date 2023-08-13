@@ -3,7 +3,7 @@
   width: 100%;
   padding: 53px 0 38px;
 
-  background: var(--gray-6, #f2f2f2);
+  background: var(--gray-6);
 }
 .inner-container {
   width: 70%;
@@ -17,7 +17,7 @@
 
   padding-bottom: 42px;
   margin-bottom: 36px;
-  border-bottom: 1px solid #c4c4c4;
+  border-bottom: 1px solid var(--input-box);
 }
 .title {
   font-size: 22px;
@@ -35,7 +35,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 40px;
-  color: var(--gray-2, #4f4f4f);
+  color: var(--gray-2);
   font-size: 14px;
   font-family: "Noto-400";
 }
