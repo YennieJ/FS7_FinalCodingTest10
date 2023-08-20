@@ -24,6 +24,7 @@
   font-size: 24px;
   font-family: "Roboto";
   font-weight: 700;
+  line-height: 28px;
 }
 /* 네비게이션 */
 .main-nav {
@@ -52,6 +53,7 @@
 .main-nav button {
   padding: 10px 5px;
   font-family: "Roboto";
+  line-height: 19px;
 }
 /* 활성화 되고있는 버튼 */
 .button-active {
@@ -110,6 +112,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  line-height: 23px;
 }
 /* .movie_name:hover {
   animation: leftToRight 3s infinite ease-in-out;
@@ -143,7 +146,9 @@
   top: 0;
   right: 0;
 }
-
+.movie-detail dt {
+  line-height: 20px;
+}
 .movie-detail dt:not(:last-child) {
   margin-bottom: 5px;
 }
@@ -190,6 +195,7 @@
   font-family: "Noto-500";
 
   background: var(--gray-6);
+  line-height: 20px;
 }
 
 .link-group li {
@@ -218,5 +224,5 @@
 
   background: url(./MovieImgs/play.svg) no-repeat center;
 
-  vertical-align: top;
+  vertical-align: sub;
 }
